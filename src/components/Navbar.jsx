@@ -6,8 +6,8 @@ function Navbar() {
 
             <nav className="bg-white border-gray-200 dark:bg-primaryBrown">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
-                    <a href="#" class="flex items-center">
-                        <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qhQOQfo0YnKJSx91Ms_Q9WDusuW9kzevkbm7n0I3Z7TUhXS5SXHHFooUKQeiG9nCOlzJImpRjzNGc6uqKZijN24aWk=s2560" class="h-20 mr-2" alt="PetParent" />
+                    <a href="/" class="flex items-center">
+                        <img src="https://lh3.googleusercontent.com/drive-viewer/AFGJ81qhQOQfo0YnKJSx91Ms_Q9WDusuW9kzevkbm7n0I3Z7TUhXS5SXHHFooUKQeiG9nCOlzJImpRjzNGc6uqKZijN24aWk=s2560" class="h-20 mr-2" alt="PetParent"/>
                     </a>
                     <div className="flex items-center md:order-2">
                         <button type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-darkCream" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
