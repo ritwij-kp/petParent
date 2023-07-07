@@ -23,13 +23,16 @@ module.exports ={
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
-    colors: {
-      'primaryBrown':'#3f2305',
-      'lund':'#f2ead3',
-      'darkCream':'#dfd7bf',
-      'teal':'#008080',
-    }
+    extend: {
+      colors: {
+        'primaryBrown':'#3f2305',
+        'lund':'#f2ead3',
+        'darkCream':'#dfd7bf',
+        'teal':'#008080',
+        'white':'#ffffff',
+      }
+    },
+    
   },
   plugins: [Myclass],
 }

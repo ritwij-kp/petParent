@@ -6,20 +6,20 @@ function PetCard(props) {
     }
     return (
         <section
-            className="bg-gray-900 h-420px flex justify-center items-center gap-x-16 text-white"
+            className="bg-lund h-420px flex justify-center items-center gap-x-16 text-white"
         >
 
             <div
-                className="w-[300px] h-[420px] bg-transparent cursor-pointer group perspective"
+                className=" w-[300px] h-[420px] bg-transparent cursor-pointer group perspective"
             >
                 <div
-                    className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000"
+                    className="border-2 border-primaryBrown relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000"
                 >
-                    <div className="absolute backface-hidden border-2 w-full h-full">
+                    <div className=" absolute backface-hidden border-2 w-full h-full">
                         <img src={props.img} className="w-full h-full" />
                     </div>
                     <div
-                        className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-gray-100 overflow-hidden"
+                        className="absolute my-rotate-y-180 backface-hidden w-full h-full bg-lund overflow-hidden"
                     >
                         <div
                             className="text-center flex flex-col items-center justify-center h-full text-gray-800 px-2 pb-24"
